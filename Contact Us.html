@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Contact Us</title>
+         <link href="style.css" type="text/css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="If you feel the need to contact us to find out more about us and how to get involved, you may contact
+              us through the following ways:">
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/43d939ace3.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+         <a href="https://www.facebook.com/">
+        <i class="fa-brands fa-facebook fa-xl"></i>    
+    </a>
+        
+        <a href="https://twitter.com/">
+        <i class="fa-brands fa-twitter fa-xl"></i>
+        </a>
+        
+        <a href="https://www.instagram.com/">
+        <i class="fa-brands fa-instagram fa-xl"></i>
+        </a>
+        <div>
+            <header>
+                
+                <h1>Contact Us</h1>
+                <nav>
+                <a href="index.html">Home Page</a>
+                <a href="About Us.html">About Us</a>
+                <a href="Partners.html">Partners</a>
+                <a href="Get Involved.html">Get Involved</a>
+                <a href="Contact Us.html">Contact Us</a>
+                <a href="Javascipt/java.html">Create an account</a>
+            </nav>
+                <P>If you feel the need to contact us to find out more about us and how to get involved, you may contact
+                    us through the following ways:<br>
+                    1. Our tel <a href="tel">+27 71 480 9999</a>
+                    
+            </header>
+            
+            <main>
+                2. You can physically find us through our location:<br><br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3583.6263448480368!2d28.088210850543913!3d-26.078465283412974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95729518c8dddf%3A0x5c57fd32e5a5ac9!2sKelvin%20Village%20Shopping%20Centre!5e0!3m2!1sen!2sza!4v1680861387705!5m2!1sen!2sza" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br><br>
+                3. You can email us: <a href="mailtoupliftinglives23@yahoo.com">upliftinglives23@yahoo.com</a> <br><br>
+            
+            <body>
+
+    <div class="border3">
+                    
+               <center>
+                    
+       
+                    <h2 class="heading">CONTACT US</h2>    
+                    
+                </center>
+        
+  
+
+
+<div>
+    
+       
+        <!
+    <h2 style="text-align: center;">Want to help? Here's how!</h2>
+    <form name="form" onsubmit="return validateForm()"   method="post" action="mailto:st10347787@rcconnect.edu.za">
+      <fieldset>
+        <legend></legend>
+        <label for="name" style="margin-right: 545px;">Name:</label>
+        <input type="text" name="Name" id="name" required><br>
+
+        <label for="surname" style="margin-right: 485px;">Surname:</label>
+        <input type="text" name="Surname" id="surname" required><br>
+
+        <label for="email" style="margin-right: 533px;">Email:</label>
+        <input type="text" name="Email" id="email" required><br>
+        
+        <label class="border2">Select a donation</label>
+    <select class="border2"> id="dateday" name="expiry date(DAY)"&gt;
+         <option value="1">Financial Donation</option>
+      <option value="2">Stationery</option>
+      <option value="3">Clothing</option>
+       <option value="1">Food Donation</option>
+    </select>
+        <br>
+
+
+        <label for="password" style="margin-right: 503px;">Password:</label>
+        <input type="password" name="Password" id="password" required><br>
+
+        <label for="ConfPassword">Confirm Password:</label>
+        <input type="password" name="ConfPassword" id="ConfPassword" required><br>
+        <label style="margin-right: 540px;">Gender:</label>
+        <label style="margin-right: 540px;">
+          <input type="radio" name="gender" value="male" class="MRadio" required>
+          Male
+        </label>
+   
+        <label style="margin-right: 500px;">
+          <input type="radio" name="gender" value="female" class="FRadio" required>
+          Female
+        </label>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+      </fieldset>
+    </form>
+  </div>
+<script>
+    function validateForm() {
+      var name = document.getElementById('name').value;
+      var surname = document.getElementById('surname').value;
+      var email = document.getElementById('email').value;
+      var password = document.getElementById('password').value;
+      var confPassword = document.getElementById('ConfPassword').value;
+
+      // Perform form validation
+      if (!name || !surname || !email || !password || !confPassword) {
+        alert('Please fill in all fields');
+        return false;
+      }
+
+      if (!validateEmail(email)) {
+        alert('Please enter a valid email address');
+        return false;
+      }
+
+      if (password !== confPassword) {
+        alert('Passwords do not match');
+        return false;
+      }
+
+      // If form is valid, set the 'action' attribute of the form to the 'mailto' URL
+      document.forms['form'].action = 'mailto:your-email@example.com';
+
+      // Allow the form submission to continue
+      return true;
+    }
+
+    function validateEmail(email) {
+      // Regular expression for email validation
+      var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      return emailRegex.test(email);
+    }
+  </script>
+>
+         
+        
+        
+ 
+        
+        
+        
+    
+</label></label></label></label></form></div>
+
+</div></body>
+            </main>
+            
+            
+            <footer>
+                
+                <p><small>Uplifting Lives &copy; Copyright 2023 All rights reserved</small></p> <br> 
+                
+                
+                
+                
+                <p><small><a href="mailto:upliftinglives23@yahoo.com">upliftinglives23@yahoo.com</a></small></p>
+                <center><img src="images/IMG_E4342.JPG" height="80" width="80" alt="logo"/></center> 
+                <a href=" https://www.youtube.com/">
+                    <br><br> <i class="fa-brands fa-youtube fa-bounce fa-xl"></i>
+            </a>
+            </footer>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,231 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 11 May,2023, 13:25:24
+    Author     : DELL
+*/
+
+h1{font-family: "Righteous";
+   font: Ariel; 
+   color: #929210; 
+   font-size: 60pt;
+}
+
+
+
+p{color: black}
+
+nav a{ text-decoration: none;
+color: black;
+float: right;
+font-size: 16pt;
+padding: 10px;
+}
+
+main a{ text-decoration: none;
+        padding: 5pt;
+        
+}
+
+nav a:hover{font-size: 24pt;
+font-family: sans-serif
+}
+
+nav a:active{ background-color:#929210}
+
+p{font-size: 13pt}
+                  
+h2{font-family: "Righteous";
+color: black
+}
+
+h3{font-family: "Righteous";
+color: black
+}
+
+legend{color: black}
+
+label{color: black}
+
+h1{
+    border-top-style: dotted;
+border-bottom-style: dotted;
+
+}
+
+h1{
+    border-bottom-color: #929210;
+border-top-color: #929210
+}
+
+
+
+
+
+legend{font-size: 15pt}
+
+body{background-image:url("images/white back.jfif");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+}
+
+.fa-facebook{color: #1482ce}
+.fa-instagram{color: #e50851}
+.fa-twitter{color: aqua}
+.fa-youtube{color: red}
+
+#box1{
+ border: 3px solid;
+width: 400px;
+height: 45px;
+font-size: 25px;
+text-align: center;
+background-color: #929210;
+
+transform: translateX(5PX);
+transform: skewY(0deg);
+
+
+
+animation: mSLOGAN;
+animation-duration: 5s;
+
+
+}
+
+@keyframes mSLOGAN{
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
+
+}
+
+/* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+.heading{
+border: 2px black solid;
+max-width:125px;
+background:white;
+color:black;
+padding-bottom:5px;
+}
+
+
+.label1 {
+border:1px black solid;
+max-width:400px;
+padding-bottom:5px;
+}
+
+
+ input[type=text], select {
+  width:70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px gold;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color:red;
+      }
+
+input[type=text]:hover {
+ border:1px solid cyan;
+      }
+      
+      .border2{
+          max-width:100px;
+          color:black;
+      }
+      
+     .color1{
+          background:black;
+     }
+     .button1{
+         padding:15px;
+         border-radius: 10px;
+         background:black;
+         color:#929210
+     }
+     
+     .border3{
+         border:4px black solid;
+         
+         border-radius: 50px;
+         
+         
+     }
+     
+     
+     .grid{
+         display: grid;
+         grid-template-columns: repeat(3, 300px);
+         justify-content: center;
+         align-content: center;
+        height: 100vh;
+        gap: 10px;
+     }
+ 
+
+
+
+     .grid img{
+         width: 300px;
+         height: 300px;
+     }
+     
+     #lightbox{
+         position: fixed;
+         z-index: 1000;
+         height: 100%;
+             width:100%;
+             background-color: rgba(0,0,0,8);
+         top: 0;
+         
+     }
+     
+     #lightbox.active{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+     
+     
+     #lightbox img{
+         max-width: 90%;
+         max-height: 80%;
+         padding: 4px;
+         background-color: black;
+         border: 2px solid white;
+     }
+     
+     
+     
+     
+     
+     
